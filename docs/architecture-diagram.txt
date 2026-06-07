@@ -1,0 +1,46 @@
+﻿WorkPulse LeaveOps - Architecture Diagram
+
+LINE User
+    |
+    v
+LINE Official Account
+    |
+    v
+LINE Developers Webhook
+    |
+    v
+Cloudflare Worker
+    |
+    v
+Verify LINE Signature
+    |
+    v
+Google Apps Script Web App
+    |
+    v
+LINE_INBOX_QUEUE
+    |
+    v
+Queue Worker
+    |
+    v
+API Gateway
+    |
+    v
+Core LeaveOps
+    |
+    v
+LINE_DELIVERY_LOG
+    |
+    v
+LINE Push Reply
+    |
+    v
+LINE User
+
+Notes:
+- Cloudflare Worker is used as a webhook proxy.
+- Worker helps avoid direct Google Apps Script webhook timeout and redirect issues.
+- LINE events are written into LINE_INBOX_QUEUE first.
+- Queue Worker processes messages asynchronously.
+- Delivery results are stored in LINE_DELIVERY_LOG.

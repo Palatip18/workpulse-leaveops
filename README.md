@@ -6,16 +6,20 @@ The project demonstrates an end-to-end internal HR workflow system with real LIN
 
 ## Project Status
 
-- Portfolio / CV Ready: 100%
-- Interview Demo Ready: 100%
-- Internal Pilot Ready: 100%
-- Production Enterprise Ready: Not claimed
+- Portfolio Ready
+- Interview Demo Ready
+- Internal Pilot Ready
+- Production Deployment: Out of Scope
+
+## Why This Project
+
+Many SMEs still manage leave requests manually through chat messages, spreadsheets, and informal approval workflows.
+
+WorkPulse LeaveOps demonstrates how internal HR workflows can be automated using LINE Messaging API, Google Apps Script, Google Sheets, and Cloudflare Worker with queue-based processing, audit logs, safety controls, and interview-ready evidence.
 
 ## What This Project Solves
 
-Many small internal teams still manage leave requests manually through chat, spreadsheets, and repeated HR follow-ups.
-
-WorkPulse LeaveOps solves this by turning the leave operation into a controlled workflow:
+WorkPulse LeaveOps turns manual leave operations into a controlled workflow:
 
 - Employees can check leave balance through LINE
 - LINE messages are received through a real webhook
@@ -36,6 +40,24 @@ WorkPulse LeaveOps solves this by turning the leave operation into a controlled 
 - Audit logs
 - Health checks
 - Regression tests
+
+## Skills Demonstrated
+
+- Workflow Design
+- Business Process Automation
+- Google Apps Script
+- Google Sheets as MVP database
+- LINE Messaging API Integration
+- Cloudflare Worker Webhook Proxy
+- Queue-based Processing
+- API Gateway Design
+- Audit Logging
+- Health Checks
+- Regression Testing
+- Security and Secret Management
+- Technical Documentation
+- Internal Tool Design
+- Pilot Readiness Planning
 
 ## Key Features
 
@@ -184,20 +206,22 @@ The repository includes placeholder configuration only.
 
 ## Repository Structure
 
-- cloudflare-worker/  
-  Sanitized Cloudflare Worker webhook proxy code
-
-- docs/  
-  Architecture, demo script, pilot readiness, roadmap, and security notes
-
-- samples/  
-  Sample configuration, LINE webhook payload, and sheet structure
-
-- screenshots/  
-  Portfolio evidence screenshots
-
-- README.md  
-  Project overview and portfolio entry point
+    README.md
+    docs/
+      architecture.md
+      architecture-diagram.txt
+      security-notes.md
+      demo-script.md
+      pilot-readiness.md
+      roadmap.md
+    cloudflare-worker/
+      line-webhook-proxy.js
+    samples/
+      sample-config.md
+      sample-line-payload.json
+      sample-sheet-structure.md
+    screenshots/
+      portfolio evidence screenshots
 
 ## Documentation
 

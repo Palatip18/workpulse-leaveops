@@ -1,0 +1,66 @@
+﻿# Sample Sheet Structure
+
+This document summarizes the main Google Sheets used by WorkPulse LeaveOps.
+
+## Core Configuration
+
+- README
+- CONFIG
+- DASHBOARD
+- CHANGELOG
+- ROADMAP
+
+## Employee and Leave
+
+- EMPLOYEES
+- LEAVE_POLICY
+- LEAVE_BALANCE
+- LEAVE_REQUESTS
+- APPROVAL_LOG
+- HR_CONFIRMATION_QUEUE
+
+## Attendance and Month-End
+
+- ATTENDANCE_IMPORT
+- MONTHLY_SUMMARY
+- MONTHLY_CONFIRMATION
+- DISPUTE_QUEUE
+
+## Optional Field Attendance
+
+- FIELD_ATTENDANCE_LOG
+- FIELD_EVIDENCE_LOG
+- FIELD_REVIEW_QUEUE
+
+## Notification and LINE
+
+- NOTIFICATION_QUEUE
+- LINE_USER_MAP
+- LINE_INBOX_QUEUE
+- LINE_WEBHOOK_LOG
+- LINE_DELIVERY_LOG
+- LINE_REAL_CONFIG_AUDIT
+
+## API and Deployment
+
+- API_REQUEST_LOG
+- WEBAPP_MOCK_DEPLOYMENT
+- API_PAYLOAD_PACK
+- DEPLOYMENT_CHECKLIST
+
+## QA and Portfolio
+
+- TEST_CASES
+- TEST_RESULTS
+- DEMO_SCRIPT
+- PORTFOLIO_EVIDENCE
+- PILOT_CHECKLIST
+- GO_LIVE_CHECKLIST
+- ROLLBACK_PLAN
+- CV_BULLET_PACK
+
+## Notes
+
+Google Sheets is used as the MVP database.
+
+Future roadmap includes migration to PostgreSQL or Supabase.

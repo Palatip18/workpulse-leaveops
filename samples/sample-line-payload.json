@@ -1,0 +1,19 @@
+﻿{
+  "destination": "mock-destination",
+  "events": [
+    {
+      "type": "message",
+      "replyToken": "mock-reply-token",
+      "source": {
+        "type": "user",
+        "userId": "LINE_EMP001"
+      },
+      "timestamp": 1780704826259,
+      "message": {
+        "type": "text",
+        "id": "mock-message-id",
+        "text": "เช็กสิทธิวันลา"
+      }
+    }
+  ]
+}

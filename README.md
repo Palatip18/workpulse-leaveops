@@ -79,3 +79,19 @@ Recommended evidence:
 - Production-grade permission system
 - Monitoring and alerting
 - Multi-company SaaS direction
+
+## Portfolio Evidence
+
+### 1. Real LINE Reply Success
+
+![Real LINE Reply Success](screenshots/01_LINE_REAL_REPLY_SUCCESS.png)
+
+### 2. LINE Inbox Queue Processed
+
+![LINE Inbox Queue Done Sent](screenshots/02_LINE_INBOX_QUEUE_DONE_SENT.png)
+
+### 3. LINE Delivery Log
+
+![LINE Delivery Log Debug to Success](screenshots/03_LINE_DELIVERY_LOG_DEBUG_TO_SUCCESS.png)
+
+More evidence screenshots are available in the screenshots folder.
